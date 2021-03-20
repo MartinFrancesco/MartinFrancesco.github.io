@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Martin | Portfolio</title>
+    <meta name="author" content="Francesco Martin">
+
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" href="images/miologo-b.png" type="image/x-icon">
+    <link rel="icon" href="images/miologo-b.png" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Titillium+Web:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+    <div id="loading">
+        <div class="preloader">
+            <div class="preloader__ring">
+              <div class="preloader__sector">D</div>
+              <div class="preloader__sector">i</div>
+              <div class="preloader__sector">r</div>
+              <div class="preloader__sector">e</div>
+              <div class="preloader__sector">c</div>
+              <div class="preloader__sector">t</div>
+              <div class="preloader__sector">e</div>
+              <div class="preloader__sector">d</div>
+              <div class="preloader__sector">-</div>
+              <div class="preloader__sector">b</div>
+              <div class="preloader__sector">y</div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+            </div>
+            <div class="preloader__ring">
+              <div class="preloader__sector">F</div>
+              <div class="preloader__sector">r</div>
+              <div class="preloader__sector">a</div>
+              <div class="preloader__sector">n</div>
+              <div class="preloader__sector">c</div>
+              <div class="preloader__sector">e</div>
+              <div class="preloader__sector">s</div>
+              <div class="preloader__sector">c</div>
+              <div class="preloader__sector">o</div>
+              <div class="preloader__sector">-</div>
+              <div class="preloader__sector">M</div>
+              <div class="preloader__sector">a</div>
+              <div class="preloader__sector">r</div>
+              <div class="preloader__sector">t</div>
+              <div class="preloader__sector">i</div>
+              <div class="preloader__sector">n</div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+              <div class="preloader__sector"></div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="wrapper">
+
+        <!-- menu -->
+        <nav class="menu">
+            <div class="menu__items">
+                <div class="menu__items-link active"><a href="about.html">About</a></div>
+            </div>
+            <div class="menu__logo">
+                <a href="index.html"><img src="./images/miologo-b.png" alt="Logo"></a>
+            </div>
+            <div class="menu__items">
+                <div class="menu__items-link"><a href="index.html">Projects</a></div>
+            </div>
+        </nav>
+
+        <!-- about-section -->
+        <div class="about__container" data-scroll-section>
+            <p class="about__container-data" data-scroll>Curious and passionate Jr. Web Developer & Communication Designer. <br>
+                    <br> Always oriented to improve my knowledges and keep testing myself, willing to face challenges in a team; each project is a chance to find out more about who I am.</p>
+
+            <p data-scroll>If you have any questions or would like to have a chat, don't hesitate to <span
+                    class="about__container-contact-link"><a href="mailto:francescomartinmail@gmail.com?subject=Mail from Francesco Martin Portfolio" target="_blank">get
+                        in touch.</a></span></p>
+
+            <p class="about__container-link" data-scroll>
+                <a href="https://www.linkedin.com/in/francesco-martin-010/" target="_blank">Have a look at my linkedin</a>
+            </p>
+            
+            <p class="about__container-link" data-scroll>
+                <a href="./images/Francesco_Martin_CV.pdf" target="_blank">Here my Ita & Eng CV</a>
+            </p>
+        </div>
+
+        <div class="cursor-follow"></div>
+    </div>
+    <script>
+        setTimeout(function() {
+          var loader = document.getElementById("loading");
+          loader.style.WebkitTransition = 'visibility .5s, opacity .5s';
+          loader.style.opacity = '0';
+          loader.style.visibility = 'hidden';
+        }, 1250);
+    </script> 
+    <!-- <script>
+        window.onload = function(){ document.getElementById("loading").style.display = "none" }
+    </script> -->
+    <script src="js/script.js"></script>
+    <script>
+        // smooth scroll 
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            smoothMobile: true,
+            inertia: 0.75
+        });
+
+        // div following mouse 
+        TweenMax.from(".cursor-follow", 2, {
+            delay: 1,
+            opacity: 0,
+        });
+
+        follower = document.querySelector('.cursor-follow');
+
+        posX = 0;
+        posY = 0;
+        mouseX = 0;
+        mouseY = 0;
+
+        TweenMax.to({}, 0.016, {
+            repeat: -1,
+            onRepeat: function () {
+                posX += (mouseX - posX) / 9;
+                posY += (mouseY - posY) / 9;
+
+                TweenMax.set(follower, {
+                    css: {
+                        left: posX - 40,
+                        top: posY - 40,
+                    }
+                });
+            }
+        });
+
+        document.addEventListener("mousemove", function (e) {
+            mouseX = e.pageX;
+            mouseY = e.pageY;
+        });
+    </script>
+</body>
+
+</html>
